@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(lightblue, whitesmoke)
+
+}
+#black-cat {
+    width: 300px;
+}
+.lasagna {
+    width: 300px;
+}
+.group-cats {
+    width: 300px;
+}
+label {
+    /*border: 1px solid black;
+    background: whitesmoke;
+    border-radius: 3px;
+    padding: 1px ;*/
+} 

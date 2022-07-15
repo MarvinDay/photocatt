@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>CatPhotoApp</h1>
+        <main>
+            <section>
+                <h2>Cat Photos</h2>
+                <!-- TODO: Add link to cat photos -->
+                <p>Click here to view more <a href="https://www.rd.com/list/black-cat-breeds/" target="_blank">cat photos.</a></p>
+                <img id="black-cat" src="https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg?resize=1536,1004" alt="A cute black cat in a carp">
+            </section>
+            <section>
+                <h2>Cat lists</h2>
+                <h3>Things cats love:</h3>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointer</li>
+                    <li>lasagna</li>
+                </ul>
+            <figure> 
+                <img class="lasagna" src="https://www.simplyrecipes.com/thmb/o21f7yISawuyh4zKJ8IiErwue28=/2000x1333/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2012__11__Vegetarian-Lasagna-LEAD-1-6173a71bfd1347aa8d7659150e87b8f4.jpg" 
+                alt="A slice of lasagna on a plate." >
+                <figcaption>Cats <em>love</em> lasagna</figcaption>
+            </figure>
+            <h3>Top 3 cats hate:</h3>
+            <ol>
+                <li>Flea treatment</li>
+                <li>Thunder</li>
+                <li>Other cats</li>
+            </ol>
+            <figure>
+                <img class="group-cats" src="https://www.eastbaytimes.com/wp-content/uploads/2021/05/EBT-L-CATSLEFT_85093015.jpeg?w=1024" alt="4 little whites cats">
+                <figcaption>Cat <strong>hate</strong> other cats.</figcaption>
+            </figure>
+            </section>
+            <section>
+                <h2>Cat Form</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <label><input type="radio" id="indoor" name="indoor-outdoor" checked> Indoor</label>
+                    <label><input type="radio" id="outdoor" name="indoor-outdoor"> Outdoor</label>
+                </fieldset>
+                  <fieldset>
+                    <legend>What`s your cat`s personality?</legend>
+                    <input type="checkbox"><label for="loving" checked> Loving</label>
+                    <input type="checkbox"><label for="lazy"> Lazy</label>
+                    <input type="checkbox"><label for="energetic"> Energetic</label>   
+                </fieldset>
+                <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                <button type="submit">Submit</button>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <p></p>
+    </footer>
+</html>
